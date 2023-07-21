@@ -658,6 +658,7 @@ async def post_init(application: Application):
         BotCommand("/balance", "Показать баланс"),
         BotCommand("/settings", "Показать настройки"),
         BotCommand("/help", "Сообщение-подсказка"),
+        BotCommand("/cancel", "Отменить действие"),
     ])
 
 def run_bot() -> None:
